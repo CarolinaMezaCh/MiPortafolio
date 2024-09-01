@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/Fondo3.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Cubrir toda la página */
+    background-attachment: fixed; /* Fijar la imagen al fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    color: #2f351a; /* Texto negro para contraste */
+}
+
+#fotoperfil{
+    position:fixed;
+    transform: scale(1.2) 
+  
+}
+.navbar {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+.nav-link:hover {
+    color: #17c445 !important; /* Links en verde al pasar el cursor */
+}
+
+.jumbotron {
+    background: none; /* Quitar fondo de la jumbotron */
+    color: #2f351a; /* Texto blanco para contraste */
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1, h2 {
+    color: #2f351a
+}
+
+h5 {
+    color: #17c445
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#contacto .btn-info, #contacto .btn-success {
+    margin: 5px;
+}
+
+.card {
+    min-height: 450px; /* Ajusta el valor según tus necesidades */
+  }
